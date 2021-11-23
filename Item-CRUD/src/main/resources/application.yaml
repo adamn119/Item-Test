@@ -1,0 +1,15 @@
+server:
+  port: 7060
+
+
+spring:
+  datasource:
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/adm
+    username: postgres
+    password: adam080702
+  jpa:
+    generate-ddl: true
+    hibernate:
+      dll-auto: create-drop
+
