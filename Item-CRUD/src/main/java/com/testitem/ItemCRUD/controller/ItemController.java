@@ -23,7 +23,7 @@ public class ItemController {
     }
 
     @GetMapping(path = "/{id}")
-    public ItemResponse readKaryawanById(
+    public ItemResponse readItemById(
             @PathVariable(value = "id") Long id
     ) {
         return service.ReadItemById(id);
