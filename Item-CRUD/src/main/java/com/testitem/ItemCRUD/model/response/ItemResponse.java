@@ -7,7 +7,7 @@ import lombok.Data;
 @AllArgsConstructor
 public class ItemResponse {
     private Long id;
-    private String Nama_barang;
-    private Long Jumlah_barang;
-    private String Harga_barang;
+    private String NamaBarang;
+    private  Long JumlahBarang;
+    private String HargaBarang;
 }

@@ -17,7 +17,7 @@ public class Item {
     @Column(nullable = false, unique = true)
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private Long id;
-    private String nama_barang;
-    private  Long jumlah_barang;
-    private String harga_barang;
+    private String NamaBarang;
+    private  Long JumlahBarang;
+    private String HargaBarang;
 }
