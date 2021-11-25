@@ -11,7 +11,7 @@ import java.security.PrivateKey;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "Barang")
+@Table(name = "Item")
 public class Item {
     @Id
     @Column(nullable = false, unique = true)
